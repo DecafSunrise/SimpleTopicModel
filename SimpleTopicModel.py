@@ -3,6 +3,7 @@ import umap.umap_ as umap
 import hdbscan
 from sentence_transformers import SentenceTransformer
 import pandas as pd
+import plotly
 import plotly.express as px
 from tqdm import tqdm
 tqdm.pandas()
