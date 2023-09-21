@@ -4,7 +4,7 @@ setup(
 
     name='SimpleTopicModel',
 
-    version='0.0.4',
+    version='0.0.7',
 
     author='decafsunrise',
 
@@ -19,5 +19,9 @@ setup(
     install_requires=REQUIREMENTS,
 
     packages=find_packages(),
+
+    project_urls = {
+    'GitHub': 'https://github.com/DecafSunrise/SimpleTopicModel',
+}
 
 )
