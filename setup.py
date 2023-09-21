@@ -1,10 +1,10 @@
 from setuptools import setup, find_packages
-
+REQUIREMENTS = [i.strip() for i in open("requirements.txt").readlines()]
 setup(
 
     name='SimpleTopicModel',
 
-    version='0.0.3',
+    version='0.0.4',
 
     author='decafsunrise',
 
@@ -15,7 +15,9 @@ setup(
     long_description_content_type='text/markdown',
     
     long_description=open('README.md').read(),
-    
+
+    install_requires=REQUIREMENTS,
+
     packages=find_packages(),
 
 )
