@@ -12,11 +12,9 @@ setup(
 
     description='An NLP Package for generating Topic Models',
 
-    
-...
     long_description=open('README.md').read(),
+    
     long_description_content_type='text/markdown',
-...
     
     packages=find_packages(),
 
