@@ -1,5 +1,5 @@
 hdbscan==0.8.33
-pandas==1.5.1
+pandas==2.1.1
 plotly==5.11.0
 sentence_transformers==2.2.2
 setuptools==49.2.1
