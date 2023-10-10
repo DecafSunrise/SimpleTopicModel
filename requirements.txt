@@ -3,5 +3,5 @@ pandas==1.5.1
 plotly==5.11.0
 sentence_transformers==2.2.2
 setuptools==49.2.1
-tqdm==4.65.0
+tqdm==4.66.1
 umap-learn==0.5.4
