@@ -4,7 +4,7 @@ setup(
 
     name='SimpleTopicModel',
 
-    version='0.0.7',
+    version='0.0.8',
 
     author='decafsunrise',
 
