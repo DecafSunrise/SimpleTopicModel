@@ -10,6 +10,9 @@ tqdm.pandas()
 
 embedder = SentenceTransformer('all-MiniLM-L6-v2')
 
+## Todo: Vectorize this, 'cuz it's too slow
+# embs = model.encode(df['title'], show_progress_bar=True)
+# df['emb'] = embs.tolist()
 def embed(text):
     """
     Generates a MiniLM embedding from raw text.
